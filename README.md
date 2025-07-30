@@ -142,7 +142,7 @@ This project is licensed under the [MIT License](LICENSE).
 For queries, suggestions, or collaborations:
 
 - **GitHub:** [ankitbarua45](https://github.com/ankitbarua45)
-- **Email:** _Add your email here_
+- **Email:** imank9762@gmail.com
 
 ---
 
