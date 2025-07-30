@@ -24,7 +24,7 @@ MailChat is a modern Flutter chat application that leverages Firebase for real-t
 > Instead, you can download the complete project and APK from the links below:
 
 - 🔹 [📱 Download MailChat APK (256 MB)](https://mailchat-android-app.netlify.app)
-- 🔸 [🗂️ Download Full Project Source Code (5.14 GB)](https://drive.google.com/drive/folders/16uSR55t1G8DkgCM7RZQDvu25WqDkQJUt?usp=sharing)
+- 🔸 [🗂️ Download Full Project Source Code (5.14 GB)](https://drive.google.com/drive/folders/18dfucu9V9_5WHrNpyNNeH5uvzQYD9PJZ?usp=sharing)
 
 > If the links expire or you need alternate access, feel free to contact me.
 
