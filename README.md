@@ -18,6 +18,16 @@ MailChat is a modern Flutter chat application that leverages Firebase for real-t
 - **Dark Mode**: Automatically adapts to system theme.
 
 ---
+## Downloads
+
+> **Sorry!** I couldn't upload the entire project folder directly to GitHub because the total size is too large (5.14 GB).  
+> Instead, you can download the complete project and APK from the links below:
+
+- 🔹 [📱 Download MailChat APK (256 MB)](https://drive.google.com/file/d/your-apk-file-id/view?usp=sharing)
+- 🔸 [🗂️ Download Full Project Source Code (5.14 GB)](https://drive.google.com/file/d/your-full-project-file-id/view?usp=sharing)
+
+> If the links expire or you need alternate access, feel free to contact me.
+
 
 ## Screenshots
 
