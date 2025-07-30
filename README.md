@@ -1,102 +1,149 @@
-# 📱 MailChat
+# MailChat
 
 MailChat is a modern Flutter chat application that leverages Firebase for real-time messaging, authentication, and cloud storage. Designed for both private and group conversations, MailChat offers a seamless, cross-platform chat experience.
 
 ---
 
-## 🔗 APK Download
+## Features
 
-👉 [Download MailChat APK (256MB) from Google Drive](https://drive.google.com/your-apk-link-here)
-
----
-
-## 🚀 Features
-
-- 🔐 Email/password authentication (Firebase Auth)
-- 💬 Real-time private and group chat (Cloud Firestore)
-- 👤 User profile setup and management
-- 🔍 Contact list and search functionality
-- 🖼️ Image sharing (Firebase Storage)
-- ✅ Email verification
-- 🌙 Light and dark mode support
-- 💾 Persistent theme preference
+- **Real-time Messaging**: Instant communication using Firebase Cloud Firestore.
+- **Authentication**: Secure sign-in and registration via Firebase Auth (supports email/password, Google, etc.).
+- **Cloud Storage**: Share images, files, and media using Firebase Cloud Storage.
+- **Group and Private Chats**: Effortlessly manage group conversations or one-on-one messages.
+- **Responsive UI**: Beautiful Material Design, optimized for Android, iOS, and web.
+- **Push Notifications**: Stay updated with real-time notifications.
+- **User Presence**: See online/offline status of contacts.
+- **Message Reactions & Replies**: Interact with messages in a modern way.
+- **Profile Customization**: Users can update profile pictures and display names.
+- **Dark Mode**: Automatically adapts to system theme.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-<!-- Add screenshots of your app here -->
-<!-- Example:
-![Login Screen](screenshots/login.png)
-![Chat Screen](screenshots/chat.png)
--->
+> _Add your screenshots here (e.g., login screen, chat interface, group chat, media sharing)_
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
-### 📋 Prerequisites
+### Prerequisites
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- A Firebase project ([Firebase setup guide](https://firebase.google.com/docs/flutter/setup))
+- [Firebase Account](https://firebase.google.com/)
+- Android Studio, VS Code, or any preferred IDE
 
-### 🔧 Installation
+### Setup Instructions
 
-```bash
-git clone https://github.com/ankitbarua45/MailChat-v1.0.git
-cd mailchat
-flutter pub get
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/ankitbarua45/MailChat-v1.0.git
+    cd MailChat-v1.0
+    ```
 
-🔌 Firebase Setup
-Add your google-services.json file to android/app/
+2. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-(For iOS) Add GoogleService-Info.plist to ios/Runner/
+3. **Configure Firebase:**
+    - Create a new project in [Firebase Console](https://console.firebase.google.com/).
+    - Add Android/iOS/web apps and download respective configuration files:
+        - `google-services.json` for Android (place in `android/app`)
+        - `GoogleService-Info.plist` for iOS (place in `ios/Runner`)
+        - `firebase_options.dart` (generated via [FlutterFire CLI](https://firebase.flutter.dev/docs/cli/))
+    - Enable **Authentication** (e.g., Email/Password, Google).
+    - Enable **Cloud Firestore** and **Cloud Storage**.
 
-Run the Firebase CLI or flutterfire configure to generate firebase_options.dart
-
-▶️ Run the App
-bash
-Copy
-Edit
-flutter run
-📦 Dependencies
-flutter
-
-firebase_core
-
-firebase_auth
-
-cloud_firestore
-
-firebase_storage
-
-cloud_functions
-
-provider
-
-shared_preferences
-
-🤝 Contributing
-Contributions are welcome!
-If you want to add features or report bugs, feel free to open an issue or submit a pull request.
-
-📬 Contact
-📧 ankitbarua45@gmail.com
-📁 GitHub: https://github.com/ankitbarua45
-
-📄 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
+4. **Run the app:**
+    ```bash
+    flutter run
+    ```
 
 ---
 
-### ✅ What you need to do next:
+## Folder Structure
 
-- Replace `https://drive.google.com/your-apk-link-here` with your **actual Google Drive APK share link**.
-- Save this as a file named `README.md` in your GitHub repository root.
-- (Optional) Add screenshots if you'd like under the `## 📸 Screenshots` section.
+```
+mailchat/
+├── android/           # Android platform-specific files
+├── assets/            # App assets (images, icons)
+│   └── icon/
+│       └── icon.png
+├── build/             # Generated build files (auto-generated)
+├── ios/               # iOS platform-specific files
+├── lib/               # Main Dart source code
+│   ├── main.dart                  # App entry point
+│   ├── auth_page.dart             # Authentication UI/logic
+│   ├── home_page.dart             # Home screen
+│   ├── contacts_list_page.dart    # Contacts list
+│   ├── group_chat_page.dart       # Group chat UI/logic
+│   ├── private_chat_page.dart     # Private chat UI/logic
+│   ├── group_create_page.dart     # Group creation
+│   ├── user_profile_page.dart     # User profile
+│   ├── profile_setup_page.dart    # Profile setup
+│   ├── email_verification_page.dart # Email verification
+│   ├── login_page.dart            # Login screen
+│   ├── search_page.dart           # Search functionality
+│   ├── chat_page.dart             # Chat UI
+│   ├── message_list.dart          # Message list widget
+│   ├── firebase_options.dart      # Firebase config
+│   └── chat_service.dart          # Chat service logic
+├── linux/              # Linux platform-specific files
+├── macos/              # macOS platform-specific files
+├── test/               # Test files
+│   └── widget_test.dart
+├── web/                # Web platform-specific files
+├── windows/            # Windows platform-specific files
+├── pubspec.yaml        # Project metadata & dependencies
+├── pubspec.lock        # Dependency lockfile
+├── README.md           # Project documentation
+├── .gitignore          # Git ignore rules
+└── ...                 # Other config and project files
+```
 
-Want me to send you this as a downloadable `.md` file?
+---
+
+## Key Packages Used
+
+- [`firebase_core`](https://pub.dev/packages/firebase_core)
+- [`firebase_auth`](https://pub.dev/packages/firebase_auth)
+- [`cloud_firestore`](https://pub.dev/packages/cloud_firestore)
+- [`firebase_storage`](https://pub.dev/packages/firebase_storage)
+- [`provider`](https://pub.dev/packages/provider)
+- [`flutter_local_notifications`](https://pub.dev/packages/flutter_local_notifications)
+- [`google_sign_in`](https://pub.dev/packages/google_sign_in)
+- [`image_picker`](https://pub.dev/packages/image_picker)
+- [`cached_network_image`](https://pub.dev/packages/cached_network_image)
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to [open an issue](https://github.com/ankitbarua45/MailChat-v1.0/issues) or submit a pull request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+For queries, suggestions, or collaborations:
+
+- **GitHub:** [ankitbarua45](https://github.com/ankitbarua45)
+- **Email:** _Add your email here_
+
+---
+
+> **Note:** This project is under active development. Features and UI may change.
