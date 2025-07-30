@@ -156,4 +156,19 @@ For queries, suggestions, or collaborations:
 
 ---
 
+## ⚠️ Warning & Responsible Use Notice
+
+This application is built for educational and personal use only. Please use MailChat responsibly and respectfully.
+
+- ❌ Do not use this app to send spam, offensive, or inappropriate content.
+- ❌ Do not attempt to exploit, hack, or misuse any feature.
+- ❌ Do not upload copyrighted or harmful material.
+- ✅ Always respect privacy, safety, and community guidelines.
+
+The developer is **not responsible** for any misuse or illegal activity carried out using this application. Any violations may result in restricted access or deletion of content.
+
+Let’s keep this a safe and positive space for everyone. ❤️
+
+---
+
 > **Note:** This project is under active development. Features and UI may change.
