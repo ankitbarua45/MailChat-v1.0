@@ -31,11 +31,8 @@ MailChat is a modern Flutter chat application that leverages Firebase for real-t
 
 ## Screenshots
 
-![b4db5ab2-c97a-4996-8b43-c97d38bdf![bfa08f5c-b55d-4460-a03b-fa6f23c1b02a](https://![557863f7-a326-4de5-8096-2938dfeb4ffe](https://github.com/user-attachments/assets/3f0bfdc7-4158-406f-9ebe-f8649803dd38)
-github.com/user-attachments/assets/c1e7c8a8-33a5-429d-820c-c9c9ebc4bad0)
-386](https://github.com/user-attachments/assets/ed2525c6-cde6-4828-b874-6fbdeab5cc95)
+📸 [View all screenshots here](https://github.com/ankitbarua45/MailChat-v1.0/tree/main/App%20Screenshots)
 
-> _Add your screenshots here (e.g., login screen, chat interface, group chat, media sharing)_
 
 ---
 
